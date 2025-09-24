@@ -195,6 +195,7 @@ disk_usage(){
 }
 
 generate_report(){
+echo "Generete report"
     local ts=$(date +%Y%m%d_%H%M%S)
     local report_file="$report_dir/system_report_${ts}.txt"
 
