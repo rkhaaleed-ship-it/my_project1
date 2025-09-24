@@ -190,7 +190,7 @@ memory_usage(){
 
 disk_usage(){
     echo "Disk usage: "
-    df -h
+    df -h | awk 'NR==1 || NR>1 {print $0}'
     echo ""
 }
 
