@@ -262,3 +262,4 @@ main_menu(){ #the menu to choose
 
 log "Tool started"
 main_menu
+log "Tool ended"
